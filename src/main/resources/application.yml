@@ -1,0 +1,32 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: kalah-game-service
+
+---
+
+spring:
+  application:
+    name: kalah-game-service
+  profiles: local
+kalah:
+  game:
+    url: http://localhost:8080/games/
+
+server:
+  port: 8080
+
+---
+spring:
+  application:
+    name: kalah-game-service
+  profiles: dev
+kalah:
+  game:
+    url: http://kalah-game.eastus.cloudapp.azure.com:8080/games/
+
+server:
+  port: 8080
+
+---
