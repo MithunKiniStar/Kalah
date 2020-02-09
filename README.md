@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/giova333/kalah-game.svg?branch=master)](https://travis-ci.org/giova333/kalah-game)
-[![codecov.io](https://codecov.io/gh/giova333/kalah-game/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/giova333/kalah-game?branch=master)
-
 # Kalah
 Java RESTful Web Service that runs a game of 6-stone Kalah.
 
