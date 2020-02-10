@@ -24,7 +24,10 @@ them and puts them in his/hers Kalah. The winner of the game is the player who h
 * Azure Kubernetes Service (AKS)
 
 #### Sequence Diagram
+* Start Game 
 ![Start Game](https://github.com/MithunKiniStar/Kalah/blob/master/Sequence%20Diagram/startGame().png)
+
+* Make Move
 ![Make Move](https://github.com/MithunKiniStar/Kalah/blob/master/Sequence%20Diagram/makeMove.png)
 
 
