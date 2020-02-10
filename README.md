@@ -52,7 +52,7 @@ If you want to run project on your local machine set "local" profile (Set enviro
 mvn clean install
 ```
 
-# How to deploy the Kalah app in Azure Kubernetes Service(AKS)
+# How to deploy Kalah app in Azure Kubernetes Service(AKS)
 * Clone application from github https://github.com/MithunKiniStar/Kalah.git
 * To build docker image uncomment spotify plugin in pom.xml
 * Then build app using maven command - "mvn clean install". This will build docker image in local.
