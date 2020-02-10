@@ -3,6 +3,13 @@ package com.org.kalah.dto;
 import java.util.Map;
 import java.util.Objects;
 
+/**
+ * @author Mithun Kini on 07/Feb/2020.
+ *
+ * Url - Which will be used by both players to play game
+ * Board Status - The position of all stones in Kalah board
+ * Player Turn - Indicates which player should play next.
+ */
 public class GameDTO {
     private int gameId;
 

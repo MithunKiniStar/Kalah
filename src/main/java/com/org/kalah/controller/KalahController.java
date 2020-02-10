@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import java.lang.invoke.MethodHandles;
 
 /**
- * @author Mithun Kini
+ * @author Mithun Kini on 07/Feb/2020.
  *
  * Main entry for all the manipulations of the Kalah game.
  * startGame,

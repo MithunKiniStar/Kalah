@@ -15,6 +15,13 @@ import org.springframework.stereotype.Repository;
 
 import java.util.NoSuchElementException;
 
+/**
+ * @author Mithun Kini on 07/Feb/2020.
+ *
+ * KalahDaoImpl
+ *  - saveGame() - Saves game
+ *  - makeMove() - Make Move in the game.
+ */
 @Repository
 public class KalahDaoImpl implements KalahDao {
 

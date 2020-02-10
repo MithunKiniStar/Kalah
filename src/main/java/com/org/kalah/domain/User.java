@@ -6,6 +6,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Objects;
 
+/**
+ * @author Mithun Kini on 07/Feb/2020.
+ *
+ * User Domain of Kalah Game
+ */
 @Entity
 public class User {
 

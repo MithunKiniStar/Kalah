@@ -8,6 +8,10 @@ import java.util.Objects;
 
 import static com.org.kalah.config.KalahGameConfiguration.*;
 
+/**
+ * @author Mithun Kini on 07/Feb/2020.
+ * Domain Game for Kalah Game persistence.
+ */
 @Entity
 @Table(name = "game")
 public class Game implements Serializable {

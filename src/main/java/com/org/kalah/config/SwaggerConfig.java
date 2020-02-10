@@ -11,9 +11,9 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * Basic API documentation configuration.
+ * API documentation configuration of Kalah app.
  *
- * Created by Alexander Gladun on 02/06/2018.
+ * Created by Mithun Kini on 07/Feb/2020.
  */
 
 @Configuration

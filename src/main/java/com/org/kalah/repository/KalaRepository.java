@@ -8,6 +8,9 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
+/**
+ * @author Mithun Kini on 07/Feb/2020.
+ */
 @Component
 public interface KalaRepository extends CrudRepository<Game, Integer>, JpaSpecificationExecutor<Game> {
     //Game saveGame();

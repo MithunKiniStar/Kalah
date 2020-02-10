@@ -10,6 +10,13 @@ import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
+/**
+ *
+ * @author Mithun Kini on 07/Feb/2020.
+ *
+ * KalahMapper - Maps Game domain object to GameDTO
+ *
+ */
 @Component
 public class KalahMapper {
 
