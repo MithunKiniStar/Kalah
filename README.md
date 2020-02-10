@@ -116,7 +116,7 @@ kubectl get service/kalah-service
 ``` 
 You can either invoke kalah app via external app or add the DNS name to the Kalah service using azure portal
 Ex: http://kalah-game.eastus.cloudapp.azure.com:8080/games
-   or http://52.23.119.30:8080/games
+   or http://52.150.55.87:8080/games
 #### To give permission for Kubernetes dashboard
 ``` 
 az aks browse --resource-group kalahGroup --name kalahCluster
