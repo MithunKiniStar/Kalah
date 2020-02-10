@@ -18,13 +18,16 @@ them and puts them in his/hers Kalah. The winner of the game is the player who h
 * Java 8
 * Spring Boot
 * Commons Lang/Collections
-* JUnit + Spring Boot Test
+* JUnit (Mockito) + Spring Boot Test
 * Tomcat 8
 * Docker
 * Azure Kubernetes Service (AKS)
 
 #### Sequence Diagram
+* Start Game 
 ![Start Game](https://github.com/MithunKiniStar/Kalah/blob/master/Sequence%20Diagram/startGame().png)
+
+* Make Move
 ![Make Move](https://github.com/MithunKiniStar/Kalah/blob/master/Sequence%20Diagram/makeMove.png)
 
 
@@ -45,14 +48,14 @@ curl --header "Content-Type: application/json" --request POST http://kalah-game.
 curl --header "Content-Type: application/json" --request PUT http://kalah-game.eastus.cloudapp.azure.com:8080/games/{gameId}/pits/{pitId}
 ```
 
-# How to run
+# How to run the Kalah app
 If you want to run project on your local machine set "local" profile (Set environment variables = spring.profiles.active=local) and type the following command from the root directory:
 
 ```
 mvn clean install
 ```
 
-### How to deploy app to AKS
+# How to deploy Kalah app in Azure Kubernetes Service(AKS)
 * Clone application from github https://github.com/MithunKiniStar/Kalah.git
 * To build docker image uncomment spotify plugin in pom.xml
 * Then build app using maven command - "mvn clean install". This will build docker image in local.
