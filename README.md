@@ -18,7 +18,7 @@ them and puts them in his/hers Kalah. The winner of the game is the player who h
 * Java 8
 * Spring Boot
 * Commons Lang/Collections
-* JUnit + Spring Boot Test
+* JUnit (Mockito) + Spring Boot Test
 * Tomcat 8
 * Docker
 * Azure Kubernetes Service (AKS)
