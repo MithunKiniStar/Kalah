@@ -17,12 +17,15 @@ them and puts them in his/hers Kalah. The winner of the game is the player who h
 #### Stack
 * Java 8
 * Spring Boot
-* Lombok
 * Commons Lang/Collections
 * JUnit + Spring Boot Test
 * Tomcat 8
 * Docker
 * Azure Kubernetes Service (AKS)
+
+#### Sequence Diagram
+![Start Game](https://github.com/MithunKiniStar/Kalah/blob/master/Sequence%20Diagram/startGame().png)
+![Make Move](https://github.com/MithunKiniStar/Kalah/blob/master/Sequence%20Diagram/makeMove.png)
 
 
 #### API
